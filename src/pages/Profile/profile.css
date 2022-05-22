@@ -1,0 +1,30 @@
+.profile{
+    color: white;
+    height: 100vh;
+}
+
+.profile__body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 8%;
+}
+.profile__body > h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+.profile__info{
+    display: flex;
+}
+.profile__info > img{
+    width: 100px;
+    height: 100px;
+}
+.profile__details{
+    margin-left: 20px;
+    color: white;
+    flex: 1;
+}
