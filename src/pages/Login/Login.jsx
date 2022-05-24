@@ -1,5 +1,6 @@
 import {React, useState} from 'react'
 import SignUp from '../SignUp/SignUp';
+import logo from '../../assets/logo.png'
 import './login.css'
 
 const Login = () => {
@@ -12,7 +13,7 @@ const Login = () => {
   return (
     <div className='login'>
         <div className="login__background">
-            <img className='login__logo' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="/" />
+            <img className='login__logo' src={logo} alt="/" />
             <button onClick={toggleSignUp} className='login__button'>{signUp ? 'Sign in' : 'SignOut'}</button>
 
             <div className="login__gradient" />

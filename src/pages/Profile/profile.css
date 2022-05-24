@@ -16,6 +16,12 @@
     border-bottom: 1px solid #282c2d;
     margin-bottom: 20px;
 }
+.profile__body > h2 {
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
 .profile__info{
     display: flex;
 }
@@ -27,4 +33,84 @@
     margin-left: 20px;
     color: white;
     flex: 1;
+}
+.profile__signout{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+    background-color: #e50919;
+    border: none;
+    cursor: pointer;
+}
+.profile__plans{
+    margin-top: 20px;
+}
+
+.profile__plans > h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+    
+}
+.profile__renewal{
+    padding: 10px 0;
+
+}
+.plan__container{
+    width: 90%;
+    margin: 0 auto;
+}
+.plan__subscribe--button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #e50919;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+
+}
+.plan__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.plan__title{
+    color: white;
+}
+.plan__title > h3{
+    font-size: 1rem;
+}
+.plan__title > p{
+    font-size: 0.7rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .profile__body{
+        width: fit-content;
+        padding-top: 100px;
+        padding-left: 5px;
+    }
+    .profile__body > h1{
+        font-size: 30px;
+        
+    }
+    .profile__info{
+        width: 105%;
+    }
+    .profile__info > img{
+        width: 50px;
+        height: 50px;
+    }
+    .profile__details{
+        margin-left: 10px;
+    }
+    .plan__subscribe--button{
+        padding: 10px;
+    }
+    .plan__container{
+        width: 100%;
+    }
 }
